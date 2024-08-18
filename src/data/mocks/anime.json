@@ -1,0 +1,248 @@
+{
+  "data": {
+      "mal_id": 52635,
+      "url": "https://myanimelist.net/anime/52635/Kami_no_Tou__Ouji_no_Kikan",
+      "images": {
+          "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/anime/1107/143536.jpg",
+              "small_image_url": "https://cdn.myanimelist.net/images/anime/1107/143536t.jpg",
+              "large_image_url": "https://cdn.myanimelist.net/images/anime/1107/143536l.jpg"
+          },
+          "webp": {
+              "image_url": "https://cdn.myanimelist.net/images/anime/1107/143536.webp",
+              "small_image_url": "https://cdn.myanimelist.net/images/anime/1107/143536t.webp",
+              "large_image_url": "https://cdn.myanimelist.net/images/anime/1107/143536l.webp"
+          }
+      },
+      "trailer": {
+          "youtube_id": "JHUeY2QwBi0",
+          "url": "https://www.youtube.com/watch?v=JHUeY2QwBi0",
+          "embed_url": "https://www.youtube.com/embed/JHUeY2QwBi0?enablejsapi=1&wmode=opaque&autoplay=1",
+          "images": {
+              "image_url": "https://img.youtube.com/vi/JHUeY2QwBi0/default.jpg",
+              "small_image_url": "https://img.youtube.com/vi/JHUeY2QwBi0/sddefault.jpg",
+              "medium_image_url": "https://img.youtube.com/vi/JHUeY2QwBi0/mqdefault.jpg",
+              "large_image_url": "https://img.youtube.com/vi/JHUeY2QwBi0/hqdefault.jpg",
+              "maximum_image_url": "https://img.youtube.com/vi/JHUeY2QwBi0/maxresdefault.jpg"
+          }
+      },
+      "approved": true,
+      "titles": [
+          {
+              "type": "Default",
+              "title": "Kami no Tou: Ouji no Kikan"
+          },
+          {
+              "type": "Synonym",
+              "title": "Sin-ui Tap"
+          },
+          {
+              "type": "Synonym",
+              "title": "신의 탑"
+          },
+          {
+              "type": "Synonym",
+              "title": "Tower of God: Return of the Prince"
+          },
+          {
+              "type": "Synonym",
+              "title": "Kami no Tou 2nd Season"
+          },
+          {
+              "type": "Japanese",
+              "title": "神之塔 -Tower of God- 王子の帰還"
+          },
+          {
+              "type": "English",
+              "title": "Tower of God: Return of the Prince"
+          }
+      ],
+      "title": "Kami no Tou: Ouji no Kikan",
+      "title_english": "Tower of God: Return of the Prince",
+      "title_japanese": "神之塔 -Tower of God- 王子の帰還",
+      "title_synonyms": [
+          "Sin-ui Tap",
+          "신의 탑",
+          "Tower of God: Return of the Prince",
+          "Kami no Tou 2nd Season"
+      ],
+      "type": "TV",
+      "source": "Web manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+          "from": "2024-07-07T00:00:00+00:00",
+          "to": null,
+          "prop": {
+              "from": {
+                  "day": 7,
+                  "month": 7,
+                  "year": 2024
+              },
+              "to": {
+                  "day": null,
+                  "month": null,
+                  "year": null
+              }
+          },
+          "string": "Jul 7, 2024 to ?"
+      },
+      "duration": "23 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.39,
+      "scored_by": 19552,
+      "rank": 2321,
+      "popularity": 1349,
+      "members": 181310,
+      "favorites": 925,
+      "synopsis": "Ja Wangnan can’t seem to pass the 20th floor. Even after failing time and time again, he refuses to give up. On his journey, he meets a mysterious and powerful character named Viole. Wangnan invites Viole to join his team of Regulars. Their journey continues with new challenges at every turn.\n\n(Source: Crunchyroll)",
+      "background": "",
+      "season": "summer",
+      "year": 2024,
+      "broadcast": {
+          "day": "Sundays",
+          "time": "23:00",
+          "timezone": "Asia/Tokyo",
+          "string": "Sundays at 23:00 (JST)"
+      },
+      "producers": [
+          {
+              "mal_id": 1468,
+              "type": "anime",
+              "name": "Crunchyroll",
+              "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+          },
+          {
+              "mal_id": 2019,
+              "type": "anime",
+              "name": "Sola Entertainment",
+              "url": "https://myanimelist.net/anime/producer/2019/Sola_Entertainment"
+          },
+          {
+              "mal_id": 2424,
+              "type": "anime",
+              "name": "Bandai Namco Filmworks",
+              "url": "https://myanimelist.net/anime/producer/2424/Bandai_Namco_Filmworks"
+          },
+          {
+              "mal_id": 2876,
+              "type": "anime",
+              "name": "Line Digital Frontier",
+              "url": "https://myanimelist.net/anime/producer/2876/Line_Digital_Frontier"
+          }
+      ],
+      "licensors": [],
+      "studios": [
+          {
+              "mal_id": 229,
+              "type": "anime",
+              "name": "The Answer Studio",
+              "url": "https://myanimelist.net/anime/producer/229/The_Answer_Studio"
+          }
+      ],
+      "genres": [
+          {
+              "mal_id": 1,
+              "type": "anime",
+              "name": "Action",
+              "url": "https://myanimelist.net/anime/genre/1/Action"
+          },
+          {
+              "mal_id": 2,
+              "type": "anime",
+              "name": "Adventure",
+              "url": "https://myanimelist.net/anime/genre/2/Adventure"
+          },
+          {
+              "mal_id": 8,
+              "type": "anime",
+              "name": "Drama",
+              "url": "https://myanimelist.net/anime/genre/8/Drama"
+          },
+          {
+              "mal_id": 10,
+              "type": "anime",
+              "name": "Fantasy",
+              "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+          },
+          {
+              "mal_id": 7,
+              "type": "anime",
+              "name": "Mystery",
+              "url": "https://myanimelist.net/anime/genre/7/Mystery"
+          }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [],
+      "relations": [
+          {
+              "relation": "Adaptation",
+              "entry": [
+                  {
+                      "mal_id": 122663,
+                      "type": "manga",
+                      "name": "Tower of God",
+                      "url": "https://myanimelist.net/manga/122663/Tower_of_God"
+                  }
+              ]
+          },
+          {
+              "relation": "Prequel",
+              "entry": [
+                  {
+                      "mal_id": 40221,
+                      "type": "anime",
+                      "name": "Kami no Tou",
+                      "url": "https://myanimelist.net/anime/40221/Kami_no_Tou"
+                  }
+              ]
+          }
+      ],
+      "theme": {
+          "openings": [
+              "\"RISE UP\" by NiziU"
+          ],
+          "endings": [
+              "\"BELIEVE\" by NiziU"
+          ]
+      },
+      "external": [
+          {
+              "name": "Official Site",
+              "url": "https://tog-anime.com/"
+          },
+          {
+              "name": "@anime_ToG",
+              "url": "https://twitter.com/anime_ToG"
+          },
+          {
+              "name": "AniDB",
+              "url": "https://anidb.net/perl-bin/animedb.pl?show=anime&aid=17559"
+          },
+          {
+              "name": "ANN",
+              "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=26189"
+          },
+          {
+              "name": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Tower_of_God#Anime"
+          },
+          {
+              "name": "Wikipedia",
+              "url": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94"
+          },
+          {
+              "name": "Syoboi",
+              "url": "https://cal.syoboi.jp/tid/7133"
+          }
+      ],
+      "streaming": [
+          {
+              "name": "Crunchyroll",
+              "url": "http://www.crunchyroll.com/series-279180"
+          }
+      ]
+  }
+}
