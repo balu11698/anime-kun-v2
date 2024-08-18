@@ -1,10 +1,16 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import AnimeCard from "../../components/AnimeCard/index.tsx";
 import Modal from "../../components/Modal/index.tsx";
 import { useGetAnimeSeasonsNowQuery } from "../../data/services/anime";
 import Drawer from "../../components/Drawer/index.tsx";
 import { Link, useNavigate } from "react-router-dom";
-import { AnimeDataWrapperStyled, HomeStyled } from "./style.ts";
+import {
+  AnimeDataWrapperStyled,
+  HomeStyled,
+  ParallaxImage,
+  ParallaxImageStyled,
+} from "./style.ts";
+import { IParallax, Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 const Seasons = () => {
   const [page, setPage] = useState(1);
@@ -13,10 +19,40 @@ const Seasons = () => {
   const { data: animeData } = data ?? {};
   const [visible, setVisible] = useState(false);
   const [selectedTitle, setSelectedTitle] = useState<string | null>(null);
+  const parallaxRef = useRef<IParallax>(null);
+
+  const scroll = (to: number) => {
+    if (parallaxRef.current) {
+      parallaxRef.current.scrollTo(to);
+    }
+  };
 
   return (
     <HomeStyled>
-      <AnimeDataWrapperStyled>
+      <Parallax
+        ref={parallaxRef}
+        pages={2}
+        horizontal
+        style={{ overflow: "hidden" }}
+      >
+        <ParallaxLayer offset={0} speed={0.2}>
+          {animeData?.[0].title_english}
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.6} onClick={() => scroll(1)}>
+          <ParallaxImageStyled>
+            <ParallaxImage src={animeData?.[0].images.webp.large_image_url} />
+          </ParallaxImageStyled>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.2}>
+          {animeData?.[1].title_english}
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.6} onClick={() => scroll(0)}>
+          <ParallaxImageStyled>
+            <ParallaxImage src={animeData?.[1].images.jpg.large_image_url} />
+          </ParallaxImageStyled>
+        </ParallaxLayer>
+      </Parallax>
+      {/* <AnimeDataWrapperStyled>
         {animeData &&
           animeData.map((anime) => (
             <AnimeCard
@@ -27,7 +63,7 @@ const Seasons = () => {
               mal_id={anime.mal_id}
             />
           ))}
-      </AnimeDataWrapperStyled>
+      </AnimeDataWrapperStyled> */}
       <div
         onClick={() => {
           setPage(page + 1);
